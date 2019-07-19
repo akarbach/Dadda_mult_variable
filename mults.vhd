@@ -28,10 +28,10 @@ architecture mults_arc of mults is
 
 begin
 
-	c1 = a1 * b1;
-	c2 = a2 * b2;
-	c3 = a3 * b3;
-	c4 = a4 * b4;
-	c5 = a5 * b5;
+	c1 <= a1 * b1;
+	c2 <= a2 * b2;
+	c3 <= a3 * b3;
+	c4 <= a4 * b4;
+	c5 <= a5 * b5;
 
 end  mults_arc;
