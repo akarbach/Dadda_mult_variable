@@ -7,19 +7,19 @@ entity mults is
 	port (
 		a1 : in std_logic_vector(3 downto 0);
 		b1 : in std_logic_vector(3 downto 0);
-		c1 : out std_logic_vector(5 downto 0);
+		c1 : out std_logic_vector(7 downto 0);
 		a2 : in std_logic_vector(4 downto 0);
 		b2 : in std_logic_vector(4 downto 0);
-		c2 : out std_logic_vector(7 downto 0);
+		c2 : out std_logic_vector(9 downto 0);
 		a3 : in std_logic_vector(5 downto 0);
 		b3 : in std_logic_vector(5 downto 0);
-		c3 : out std_logic_vector(9 downto 0);
+		c3 : out std_logic_vector(11 downto 0);
 		a4 : in std_logic_vector(6 downto 0);
 		b4 : in std_logic_vector(6 downto 0);
-		c4 : out std_logic_vector(11 downto 0);
+		c4 : out std_logic_vector(13 downto 0);
 		a5 : in std_logic_vector(7 downto 0);
 		b5 : in std_logic_vector(7 downto 0);
-		c5 : out std_logic_vector(13 downto 0)
+		c5 : out std_logic_vector(15 downto 0)
 
 	) ;
 end mults;
